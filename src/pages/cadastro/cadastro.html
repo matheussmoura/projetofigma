@@ -1,0 +1,39 @@
+<ion-content padding>
+
+    <div class="boxCadastro">
+      <img src="assets/imgs/chave.svg">
+    </div>
+
+    <ion-list>
+      <ion-item class="text">
+          <ion-label>Nome</ion-label>
+          <ion-input type="nome"></ion-input>
+        </ion-item>
+    
+        <ion-item class="text">
+          <ion-label>Data de nascimento</ion-label>
+          <ion-datetime
+          doneText="Ok"
+          cancelText="Cancelar"
+          min="1930"
+          displayFormat="DD/MM/YYYY"
+          ></ion-datetime> 
+        </ion-item>
+ 
+      <ion-item class="text">
+        <ion-label>e-mail</ion-label>
+        <ion-input type="email"></ion-input>
+      </ion-item>
+  
+      <ion-item class="text">
+        <ion-label>senha</ion-label>
+        <ion-input type="password"></ion-input>
+      </ion-item>
+    </ion-list>
+  
+    <ion-item class="text2">
+      <button (click)="cadastrar()" ion-button block round>Cadastre-se</button>
+    </ion-item>
+    <p (click)="jaPossuoConta()" class="p1">já tenho uma conta</p>
+    
+  </ion-content>

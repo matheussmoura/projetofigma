@@ -1,0 +1,37 @@
+page-eventos {
+
+.boxEventos {
+    display: block; 
+    margin-right: auto;
+    margin-left: auto; 
+    width: 231px;
+    height: 185px; 
+    background: #6C63FF
+}
+
+ion-list{
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
+    box-sizing: border-box; /* Faz que o padding funcione internamente */
+}
+
+.text {
+    width: 328px;
+    height: 48px;
+    border-radius: 10px;
+    margin: 2rem 0;
+}
+
+.lupa {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+    flex-direction: column;
+    width: 25px;
+    height: 26px;
+    background: #6C63FF
+}
+
+}

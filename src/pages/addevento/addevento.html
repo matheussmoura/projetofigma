@@ -1,0 +1,44 @@
+<ion-content padding>
+
+  <div class="boxAdd">
+    <img src="assets/imgs/addevento.svg">
+  </div>
+
+  <ion-list>
+    <ion-item class="text">
+        <ion-label>Nome</ion-label>
+        <ion-input type="nome"></ion-input>
+      </ion-item>
+  
+      <ion-item class="text">
+        <ion-label>Data do evento</ion-label>
+        <ion-datetime 
+        doneText="Ok"
+        cancelText="Cancelar"
+        max="2119"
+        displayFormat="DD/MM/YYYY"
+        ></ion-datetime>
+      </ion-item>
+
+    <ion-item class="text">
+      <ion-label>Descrição</ion-label>
+      <ion-input type="descrição"></ion-input>
+    </ion-item>
+
+    <ion-item class="text">
+      <ion-label>Categoria</ion-label>
+      <ion-input type="categoria"></ion-input>
+    </ion-item>
+
+    <ion-item class="text">
+      <ion-label>Local</ion-label>
+      <ion-input type="local"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-item class="text2">
+    <button (click)="abrirEventos()" ion-button block round>Adicionar</button>
+  </ion-item> 
+  <p class="p1" (click)="abrirEventos()">Fechar</p>
+
+</ion-content>

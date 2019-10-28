@@ -1,0 +1,28 @@
+<ion-content padding>
+
+  <div class="boxLogin"> 
+    <img src="assets/imgs/escudo.svg">
+  </div>
+  <ion-list>
+  
+      <p class="p1">Bem vindo de novo,</p>
+      <p class="p2">entre para continuar</p>
+
+    <ion-item class="text">
+      <ion-label >e-mail</ion-label>
+      <ion-input type="email" [(ngModel)]="email"></ion-input>
+    </ion-item>
+
+    <ion-item class="text">
+        <ion-label >Senha</ion-label>
+        <ion-input type="password" [(ngModel)]="senha"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-item class="text2">
+    <button ion-button block round (click)="abrirGps()">Entrar</button>
+  </ion-item>
+    <p (click)="abrirCadastro()" class="p3">ou crie sua conta</p>
+  
+</ion-content>
+  

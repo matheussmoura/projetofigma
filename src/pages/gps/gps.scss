@@ -1,0 +1,47 @@
+$bgPreto: linear-gradient(90deg, #000000 0%, #000000 100%);
+
+page-gps {
+
+    .boxGps{
+        display: block; 
+        margin-right: auto;
+        margin-left: auto; 
+        width: 233px;
+        height: 163px;
+    }
+    
+    ion-list{
+        align-items: center;
+        text-align: center;
+        border-radius: 1rem;
+        box-sizing: border-box; /* Faz que o padding funcione internamente */
+    }
+
+    .text{
+        width: 259px;
+        height: 40px;
+        background: #000000;
+        border-radius: 10px;
+    } 
+    
+    button{
+        background: $bgPreto;
+        }
+
+    .p1{
+        width: 200px;
+        height: 16px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+        margin: 10rem 0;
+    }
+
+}

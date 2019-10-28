@@ -1,0 +1,55 @@
+$bgPreto: linear-gradient(90deg, #000000 0%, #000000 100%);
+
+page-addevento {
+    
+    .boxAdd {
+        display: block; 
+        margin-right: auto;
+        margin-left: auto; 
+        width: 212.09px;
+        height: 180.01px;
+    } 
+    
+    ion-list {
+        align-items: center;
+        text-align: center;
+        border-radius: 1rem;
+        box-sizing: border-box; /* Faz que o padding funcione internamente */
+    }
+    
+    .text {
+        margin: 2rem 0;
+        width: 259px;
+        height: 40px;
+        background: #C4C4C4;
+        border-radius: 10px;
+    }
+    
+    .text2 {  
+        width: 259px;
+        height: 40px;
+        background: #000000;
+        border-radius: 10px;
+    }
+    
+    button{
+        background: $bgPreto;
+        }
+      
+    .p1 {
+        width: 46px;
+        height: 18px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 18px;
+        /* identical to box height */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #000000;
+    }
+}
+
+
